@@ -38,7 +38,7 @@ pipeline {
    
     // Uploading Docker images into the registry
 
-    stage('Pushing to OCIR') {
+    stage('Pushing to Registry') {
      steps{  
          script {
                 sh """docker login -u '${REGISTRY_USERNAME}' -p '${REG_AUTH_TOKEN}' gru.ocir.io"""
