@@ -13,7 +13,7 @@ scanners:
   - container   
     
 dast:
-  url: http://168.138.228.156:8081/
+  url: http://ddvwa.tdc.fortixperts.com:8081/
   full_scan: true #true|false
 
 fail_pipeline:
