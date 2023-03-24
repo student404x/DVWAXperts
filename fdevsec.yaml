@@ -2,19 +2,19 @@ version: v1
 
 id:
   org: 60128e83-07b2-447a-be47-7e3405a278ad
-  app: cf5d6eb7-335f-445f-ad26-9f0011095d80
+  app: 71c5506b-326a-4814-a62c-36becbc2cd19
 
 scanners:
   - sast
-  - dast
+  #- dast
   - secret
   - sca
   - iac
   - container   
     
-dast:
-  url: http://ddvwa.tdc.fortixperts.com:8081/
-  full_scan: true #true|false
+#dast:
+#  url: http://ddvwa.tdc.fortixperts.com:8081/
+#  full_scan: true #true|false
 
 fail_pipeline:
   risk_rating: 9
